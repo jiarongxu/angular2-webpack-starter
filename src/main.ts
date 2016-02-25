@@ -1,6 +1,10 @@
 /*
  * Providers provided by Angular
  */
+import 'jquery';
+import '../node_modules/bootstrap/scss/bootstrap.scss'
+import './main.scss';
+
 import {provide, enableProdMode} from 'angular2/core';
 import {bootstrap, ELEMENT_PROBE_PROVIDERS} from 'angular2/platform/browser';
 import {ROUTER_PROVIDERS, LocationStrategy, APP_BASE_HREF} from 'angular2/router';

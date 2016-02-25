@@ -103,9 +103,16 @@ module.exports = {
       { test: /\.css$/,   loader: 'raw-loader' },
 
       // support for .html as raw text
-      { test: /\.html$/,  loader: 'raw-loader', exclude: [ root('src/index.html') ] }
+      { test: /\.html$/,  loader: 'raw-loader', exclude: [ root('src/index.html') ] },
 
       // if you add a loader include the file extension
+
+      //support for scss as raw text
+      {test: /\.scss$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap']},
+
+      // if you add a loader include the resolve file extension above
+
+      {test: /\.(woff2?|ttf|eot|svg)$/, loader: 'url?limit=10000'}
     ]
   },
 

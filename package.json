@@ -46,7 +46,16 @@
     "es6-shim": "^0.33.3",
     "es7-reflect-metadata": "^1.5.5",
     "rxjs": "5.0.0-beta.2",
-    "zone.js": "0.5.15"
+    "zone.js": "0.5.15",
+    "ng2-bootstrap": "^1.0.5",
+    "bootstrap": "^4.0.0-alpha.2",
+    "jquery": "^2.2.1",
+    "tether": "^1.2.0",
+    "bootstrap-loader": "^1.0.8",
+    "autoprefixer": "^6.3.3",
+    "polyfill": "^0.1.0",
+    "babel": "^6.5.2",
+    "postcss": "^5.0.16"
   },
   "devDependencies": {
     "compression-webpack-plugin": "^0.3.0",
@@ -91,7 +100,13 @@
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1",
     "webpack-load-plugins": "^0.1.2",
-    "webpack-md5-hash": "^0.0.5"
+    "webpack-md5-hash": "^0.0.5",
+    "sass-loader": "^3.1.2",
+    "node-sass": "^3.4.2",
+    "resolve-url-loader": "^1.4.3",
+    "babel-loader": "^6.2.3",
+    "babel-core": "^6.5.2",
+    "babel-cli": "^6.5.1"
   },
   "repository": {
     "type": "git",
